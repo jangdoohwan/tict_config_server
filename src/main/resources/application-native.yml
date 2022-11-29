@@ -1,0 +1,54 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: "file:/Users/sungtae/Work/config/{label}"
+#        git:
+#          uri: http://slc.conv.site:13203/tict/config-repository
+#          ignoreLocalSshSettings: true
+#          skipSslValidation: true
+#          username: rosymod@iabacus.co.kr
+#          password: qlalfqjsgh
+#          privateKey: |
+#            -----BEGIN OPENSSH PRIVATE KEY-----
+#            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+#            NhAAAAAwEAAQAAAYEAtBeBtRq0rDJmXJQ9P9rld8HHcOXJfWCqqgAMHNKx1iYyjRG9Hjch
+#            QHUffH30O3u2iDnxLMK5W3Niebg3VYOqdEHnYNR3zpJP31AqCo8bhXI3AUBxJ/lA8flh5w
+#            243+MwEhiwe0TLOmlFb7kNqP3aaZlPSF60dwc35WwmfdYvRHwdeWvZOE43Fdg0XRkvJK5a
+#            D/8/l23MI8eX9q/fGUsRs+c6utrFaaSN+rWuEhg6li91BybpaYyI1zIB8IbXzwIkj2T2i0
+#            7PwyLR3DHjPOoTats7UeuSZ3EUaZCl+VU2rPzTUopN4UsrXDx2EHg32YvzRlv330C7sA7a
+#            x4t1EYiW580V11SYAvborqimeuQP9BcV5oDSAm252imW+Wy9+xb2hY6kK6u6HoRjn3h+qF
+#            cuwFy12g4ut7kSv6OJPglfpbvJ9GzviKOdPnvAo8ivFexkKQxk/ZmLtupXrYbgKQoIhI1f
+#            Ub9hln8+AEjXut7qsPagwoy6YTbpyWfetEytemenAAAFiO8GbDPvBmwzAAAAB3NzaC1yc2
+#            EAAAGBALQXgbUatKwyZlyUPT/a5XfBx3DlyX1gqqoADBzSsdYmMo0RvR43IUB1H3x99Dt7
+#            tog58SzCuVtzYnm4N1WDqnRB52DUd86ST99QKgqPG4VyNwFAcSf5QPH5YecNuN/jMBIYsH
+#            tEyzppRW+5Daj92mmZT0hetHcHN+VsJn3WL0R8HXlr2ThONxXYNF0ZLySuWg//P5dtzCPH
+#            l/av3xlLEbPnOrraxWmkjfq1rhIYOpYvdQcm6WmMiNcyAfCG188CJI9k9otOz8Mi0dwx4z
+#            zqE2rbO1HrkmdxFGmQpflVNqz801KKTeFLK1w8dhB4N9mL80Zb999Au7AO2seLdRGIlufN
+#            FddUmAL26K6opnrkD/QXFeaA0gJtudoplvlsvfsW9oWOpCuruh6EY594fqhXLsBctdoOLr
+#            e5Er+jiT4JX6W7yfRs74ijnT57wKPIrxXsZCkMZP2Zi7bqV62G4CkKCISNX1G/YZZ/PgBI
+#            17re6rD2oMKMumE26cln3rRMrXpnpwAAAAMBAAEAAAGBAI1wdMdWzRT8lFYbeqs+8L+Iam
+#            npnsCgfgj79odglpj48PTIPL6RT8U+91af2YQqGmaNEzQzTr5bNbkhDBxWRzX9WIo89EdB
+#            tAdP/2TBljzNQhPyl6xsXyxrzw9XQJ5d4LAlwd1eXzpl2UnwjaDulm4fIRxWfOeKvMSrlu
+#            N3pzHjRIbLRBOroim+3wlLMTJe2I79yeTVL+Hd7SSqZc6IncOsU/zSuv7IZVXFAIxniQPR
+#            C9ltHx5taD+Sn+FXFgEXzWrcjOU/rnvSoC3NquVU9H9XowBtIgNT6Q1ugOR8l9M9ZYuHuZ
+#            MBASi19Lyk6WenB3g1F293XdyVDMTb3ml7qxKQO40+y8voKEQNGFcKBkiRWx/pwecrbPYv
+#            JtVKm/FZ1mv8WVbYDfVqxbN2x7AVGQlkNUw/sXrqwJ05sPC9+I7/io1VwHaBn2Y37JPgtu
+#            RV7eqkGceYp5MjWSBooqHtqLzuwrObR+l0CzOcNHdHUUbGSQRX3uNzQ7tFSise8RrqiQAA
+#            AMB+kAMe61/0KXvyyjR34uqO24RxnP+jQIpDN1p0yNQIPeeRoH+AuPAOdhXjpNSXsUmu4i
+#            NVcVg+62omd8PvT6yn8X52HrMm8aM+YBveDLVUJCCWmhHxN0p4j9uke3vxd4a34hYYpTh4
+#            tHzjQXf1bjrY6FMuXze6Gsd+jrwnf/Z5/aLdCQKSjwrOPi4FbMdOArS2/axW4U2hmgMJzR
+#            Zk9EQH1QjXYQzqUoK7gk2RFsbIzwFDRSiYqp+MaDyKjv8RoXQAAADBAOX2XHrl63bqh4mq
+#            WFYEDyaObRoo7xN74hSwSvU4RadMvrKx9EtIDkS1kmt5DmWpki6+TlXDL18cCQ1Tb4DrxJ
+#            15Ale+M+9+gUYm0HBY+oDhCpI8agmNi11GHoQsH7Gi37TrrNBbF2SMP2H37zrsYfwGlTlb
+#            uvlYz5Vv3GKv0cOe4ECR7zgDDr3RNG0zoEwQwaxBxW2LJkM3Mm/Jj2Uixe4IsFmzNeYKMU
+#            M79xsSQTomy+sidYI3eO1kbhYIZABnnQAAAMEAyHub8zs1vTiiLNwPzbKYPfkMEfMjm099
+#            5RcdNAq8fbir0coXA8Nrgh3+AcmPdb4GrLV7oyF1ejNbHFdelPvqU7PItPVO7fG2BCBuAZ
+#            Q0MwcTDAZx7MNfmEm4IPinLhgpbWcpQbGRjhKve2g5K265N8yP6AypN7KdI4QGLANooCgT
+#            eNsyOr4Zyoiad//iLKVdnn99JsBeUhukHGHb/thNC26WVmSss+d50BjyuyA7Wz/6lqnU2P
+#            BqG4RntVWHlWMTAAAAEXJvc3ltb2RAZ21haWwuY29tAQ==
+#            -----END OPENSSH PRIVATE KEY-----
